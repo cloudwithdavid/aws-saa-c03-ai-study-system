@@ -8,14 +8,13 @@ I passed the AWS Certified Solutions Architect – Associate exam **in less than
 
 ## 🧭 Contents
 
-- [Who This Is For](#-who-this-is-for)
-- [What This System Does](#-what-this-system-does)
-- [Quick Start](#-quick-start)
-- [How to Use It](#-how-to-use-it)
-- [Keeping Your Progress Between Sessions](#-keeping-your-progress-between-sessions)
-- [Recommendations for Preparing Efficiently](#-recommendations-for-preparing-efficiently)
-- [Repository Contents](#-repository-contents)
-- [Resources and References](#-resources-and-references)
+[Who This Is For](#-who-this-is-for)  
+[What This System Does](#-what-this-system-does)  
+[Quick Start](#-quick-start)  
+[How to Use It](#-how-to-use-it)  
+[Recommendations for Preparing Efficiently](#-recommendations-for-preparing-efficiently)  
+[Repository Contents](#-repository-contents)  
+[Resources and References](#-resources-and-references)
 
 ## 🎯 Who This Is For
 
@@ -131,7 +130,7 @@ It will work through the prioritized questions, using your results and confidenc
 
 If further reinforcement would help, ask for unfamiliar practice scenarios. The emphasis is on **understanding and applying architectural requirements**, not memorizing familiar questions.
 
-## 💾 Keeping Your Progress Between Sessions
+### Keep Your Progress Between Sessions
 
 The system uses a file called `SAA-Progress.md` to maintain your learning history.
 
@@ -167,7 +166,7 @@ If your immediate objective is acquiring the certification, you can separate exa
 
 **5. Track uncertain answers and guesses.**
 
-During practice tests, mark answers you're **unsure** about or **guessed**. All unmarked answers are treated as confident. This helps the AI distinguish different types of knowledge gaps and tailor your review.
+During practice tests, record answers you're **unsure** about or **guessed**. All unrecorded answers are treated as confident. This helps the AI distinguish different types of knowledge gaps and tailor your review.
 
 ## 📁 Repository Contents
 
