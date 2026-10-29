@@ -1,187 +1,105 @@
-# SAA-C03 activity prompts
+# AWS SAA-C03 — Activity Prompts
 
-First follow the [setup in the README](README.md#set-up-your-project) and save [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md) in your Project instructions. These prompts start activities; you can ask follow-up questions naturally.
+These prompts accompany the [AWS SAA-C03 AI Study System](README.md).
 
-Replace bracketed fields with what you know. Leave unavailable details as unknown. You do not need to fill every field before getting started.
+First, configure your AI workspace using [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md). The instructions handle teaching, assessment analysis, guided review, drilling, and progress tracking.
 
-## 1. Start your preparation
+**These prompts simply start activities.** Use them as written, customize them, or ask questions naturally. Replace bracketed text with your information when relevant.
 
-Use in a new chat inside your study Project. If you already have a tracker, make its latest version available first.
+## 🚀 Core Prompts
 
-```text
-I am preparing for AWS SAA-C03.
+### 1. Prepare Before a Course Video
 
-My AWS background: [experience and certifications]
-My course and practice resources: [resources]
-Available study time: [hours per day or week]
-Target exam date: [date or undecided]
-Current stage: [course / practice testing]
-Latest assessment: [result or none]
+**When:** Before watching a lesson about a new AWS topic.
 
-Read the current progress tracker if one is available and follow the Project
-instructions. My priority is to pass efficiently and preserve time for building
-practical engineering skills. Recommend my next useful activity and explain why.
-Ask only for missing information that would change that recommendation.
-```
+> I'm about to study [topic]. What do I most need to know about it for SAA-C03?
 
-## 2. Understand a course topic
+The AI should surface decisive keywords, mental models, and connections to previously learned services so important concepts stand out during the lesson.
 
-Use when you can recognize terms but cannot yet explain the system. Dictating your current understanding can be useful.
+### 2. Analyze a Completed Practice Test
 
-```text
-I'm studying [topic]. Here is my current understanding and what confuses me:
-[my explanation or question]
+**When:** After finishing any practice assessment.
 
-Explain the missing pieces simply, with a practical scenario and an analogy
-if helpful. Connect the components, data flow, permissions, and relevant
-trade-offs. Compare only the closest plausible alternative.
+> I've completed [assessment name]. Analyze the complete results and question reviews using my workspace instructions.
+>
+> Results: [open browser tab / attached screenshots / pasted results]
+>
+> Unsure answers: [question numbers]
+>
+> Guessed answers: [question numbers]
+>
+> Prioritize my weaknesses, recommend what to review, and provide my updated `SAA-Progress.md`. Wait for me to begin the guided review.
 
-End with: "What do I need to remember from this for SAA-C03?"
-Keep the main explanation within exam scope. No quiz unless I request one.
-```
+Include the score, test mode, and attempt history if they aren't already available from the results. Unmarked answers are treated as confident.
 
-## 3. Analyze a completed practice test
+If your AI can read your open browser tabs, use that to reduce manual copying. Otherwise, supply the results through screenshots, text, or exports.
 
-Use after **each practice test**, including short diagnostics and targeted assessments. Identify a results tab only if your environment can inspect it; otherwise supply results and question reviews. If using batches, state the ranges and identify the final batch.
+### 3. Begin Guided Review
 
-```text
-Review this completed practice assessment using the Project instructions.
+**When:** After the AI has analyzed your assessment and created a prioritized review plan.
 
-Assessment and provider: [name]
-Date and mode: [details]
-Official score and question count: [details or supplied results]
-First attempt or repeat: [answer or unknown]
-Question reuse I noticed: [details or unknown]
-Correct answers I guessed or was unsure about: [references or unknown]
-Results and question reviews: [accessible tab / attached or pasted material]
-Batch coverage, if applicable: [range; final batch or more to come]
+> Begin reviewing my prioritized weaknesses. Start with the highest-priority item and guide me through the diagnostic review.
 
-Read the latest tracker. Inspect every available question review, including
-correct answers. Report questions reviewed out of total and missing evidence.
-Analyze supplied material if browser tools are unavailable.
+The AI should ask targeted questions to uncover your reasoning, explain the precise gap, and help you resolve it.
 
-Group mistakes by concept, distinguish confirmed gaps from provisional
-diagnoses, and use counts as well as percentages. Ask about my reasoning
-only where it could materially change the diagnosis.
+Simply say **"Next"** when you're satisfied with an item and want to continue.
 
-Give me:
-1. A concise assessment of what the evidence shows.
-2. An ordered review plan with question references and the smallest useful
-   activity for each priority.
-3. The next suitable targeted assessment or fresh full timed test.
-4. The complete updated SAA-Progress.md, even if some diagnosis is pending.
+### 4. Test Your Understanding
 
-Keep this to analysis and planning. Wait for me to begin the review or request
-a drill. Remind me to add or replace the tracker in Project sources.
-```
+**When:** You want to reinforce a weakness or verify that you can apply a concept in unfamiliar situations.
 
-## 4. Review a question and its decisive requirements
+> Test my understanding of [topic or weakness] using unfamiliar SAA-C03 scenarios. Adapt the questions to my previous mistakes and use interactive visuals when helpful.
 
-Use for a missed question, a correct guess, or uncertainty between plausible answers. Supply your original reasoning when possible.
+You can also ask the AI to select the most valuable weakness from your tracker.
 
-```text
-Review this practice question:
-[question and answer choices]
+### 5. Finish a Review Session
 
-My selected answer and reasoning: [explanation]
-My confidence: [confident / unsure / guessed]
-Provider's answer and explanation: [if available]
+**When:** You've finished reviewing one or more weaknesses.
 
-Diagnose the issue using the Project instructions. Explain why the best
-architecture satisfies all requirements and why the nearest alternative
-falls short. Label an uncertain diagnosis as provisional.
+> This focused review session is complete. Record what we established, update my weaknesses and next activities, and provide the complete updated `SAA-Progress.md`.
 
-Extract the minimum decisive words or combination of requirements and explain
-their significance. If no strong clue exists, say so. Show which requirements
-would need to change for the alternative to become preferable, while keeping
-the remaining constraints clear.
+Add or replace the updated tracker in your workspace's reference files so future sessions can use your latest progress.
 
-End with what I need to remember for SAA-C03. No automatic quiz. When this
-focused review session is complete, provide the full updated tracker.
-```
+---
 
-## 5. Compress an explanation
+## 🛠️ Additional Prompts
 
-Use whenever you want a compact recall summary.
+### Start Your Preparation
 
-```text
-What do I need to remember from this for SAA-C03?
+**When:** First setting up the study system.
 
-Topic or explanation: [topic / text / preceding discussion]
+> I'm preparing for AWS SAA-C03.
+>
+> My background: [AWS experience and certifications]
+>
+> Resources: [course and practice exams]
+>
+> Current stage: [studying / practice testing]
+>
+> Available study time: [time]
+>
+> Target exam date: [date or undecided]
+>
+> Help me determine the most useful next activity based on my goals and experience.
 
-Give me the essential concept, when to choose it, and the distinction most
-likely to decide between plausible alternatives. Include decisive clues only
-when they help. Keep newer product developments and nonessential implementation
-detail outside the main explanation.
-```
+### Review an Individual Question
 
-## 6. Test understanding on unfamiliar scenarios
+**When:** You want to investigate a particular question outside the planned review.
 
-Use when drilling would resolve uncertainty or check a reviewed weakness. Returning to this after a delay gives better evidence of retention.
+> Help me review [question or question reference]. I selected [answer] and was [confident / unsure / guessing]. Ask me a targeted diagnostic question to identify why I chose it, then help me understand the decisive requirements.
 
-```text
-Read my tracker and test my understanding of [concept or weakness] with
-3 original SAA-level questions. Present one at a time and wait for my answer
-and reasoning before revealing the solution.
+### Research a Topic's Exam Relevance
 
-Substantially change the workloads, constraints, wording, and competing
-solutions from the reviewed questions. Include a case where a changed
-requirement makes another solution preferable. Use plausible distractors.
+**When:** You're unsure how much study time a topic deserves.
 
-After the set, distinguish reinforcement from transfer, explain any weakness
-status change, and recommend whether to move on or revisit it. Finish this
-focused review session with the complete updated SAA-Progress.md and remind
-me to replace the Project source.
-```
+> How important is [topic] for SAA-C03? Check the official exam scope and relevant firsthand exam experiences. Tell me what I should understand and what I can deprioritize.
 
-## 7. Finish a focused review session
+### Resume Preparation
 
-The Project instructions require this update automatically after each completed focused review session. Use this prompt when you decide to stop, when the session is interrupted, or when the LLM has not recognized completion.
+**When:** Returning to your AI workspace for another session.
 
-```text
-This focused review session is finished. Read the latest tracker and
-incorporate the evidence from this session.
+> Read my latest `SAA-Progress.md`. Based on my progress and remaining weaknesses, what's the highest-value activity I should work on next? Help me begin.
 
-Record the concepts reviewed, misconceptions clarified, drill results and
-reasoning, remaining uncertainty, and next activity. Explain status changes
-without treating an explanation or familiar answer alone as mastery. Include
-any concepts that need delayed recall or unfamiliar-scenario checks.
+---
 
-Provide the complete updated SAA-Progress.md in one copyable Markdown block,
-preserving assessment history and prior supported evidence. Remind me to
-add or replace it in Project sources and keep one current version.
-```
-
-## 8. Research exam relevance
-
-Use selectively when uncertainty about a topic's scope would change how much time you spend on it. This requires web access; without it, supply the official guide or other sources for analysis.
-
-```text
-For SAA-C03 topic [topic], check the official exam guide and search recent
-firsthand exam/preparation experiences discussing broad topic coverage.
-
-Separate official scope, recurring anecdotal reports, and uncertain inference.
-Give source links and dates. Exclude dumps and actual exam questions.
-
-Recommend what I should understand, the justified depth, and what I can
-deprioritize. Do not infer precise frequency or guaranteed coverage. Keep newer
-product changes separate unless needed to correct a material error. State
-which sources you could actually check.
-```
-
-## 9. Resume and choose the next activity
-
-Use when returning to the Project or opening a new chat. Replace the tracker source with the latest generated version before starting.
-
-```text
-Read SAA-Progress.md from my Project sources and follow the Project instructions.
-
-Time available today: [duration]
-Changes since the tracker was updated: [details or none]
-
-Recommend the next highest-value activity based on the evidence. Consider
-unresolved gaps and any retention checks that are due. Explain why it comes
-next, then begin it if the required material is available. Ask only for missing
-information that changes the decision. Update the tracker when the practice
-test or focused review session finishes.
-```
+**You don't need to use a template for every interaction.** The system is designed for natural conversation. Ask follow-up questions, challenge explanations, request comparisons, or simply say **"What do I need to remember from this?"** whenever you need a more concentrated explanation.
