@@ -4,21 +4,22 @@
 
 I passed the AWS Certified Solutions Architect – Associate exam **in less than 3 weeks of preparation**. I took zero notes, did not use flashcards, and skipped all hands-on videos. Throughout preparation, I used ChatGPT as an adaptive tutor to explain AWS concepts, analyze complete practice exams, identify knowledge gaps, and test my understanding. This repository packages that approach into a reusable study system, combining instructions I used throughout preparation with refinements for other learners.
 
-> **Although I used ChatGPT, the underlying methodology can be used with Claude, Gemini, Perplexity, Grok, and other AI assistants that support persistent instructions and reference files.**
+> **Although I used ChatGPT, the underlying methodology can be used with Claude, Gemini, Grok, Perplexity and other AI assistants that support persistent instructions and reference files.**
 
-## 🧭 Contents
+## Contents
 
 [Who This Is For](#-who-this-is-for)  
 [What This System Does](#-what-this-system-does)  
-[Quick Start](#-quick-start)  
+⭐ [Quick Start](#-quick-start)  
 [How to Use It](#-how-to-use-it)  
 [Recommendations for Preparing Efficiently](#-recommendations-for-preparing-efficiently)  
 [Repository Contents](#-repository-contents)  
+[My Exam Experience](#-my-exam-experience)  
 [Resources and References](#-resources-and-references)
 
 ## 🎯 Who This Is For
 
-My objective was to **pass SAA-C03 as efficiently as possible** so I could dedicate more time to developing practical engineering skills. If you have the same or similar goals, this system is suited to you.
+My objective was to **pass SAA-C03 as efficiently as possible** so I could dedicate more time to developing practical engineering skills. If you have the same or a similar goal, this system may be a good fit for you.
 
 Your timeline will depend on your starting knowledge, available time, and learning needs.
 
@@ -61,7 +62,7 @@ Instead of requiring you to reconstruct your thought process from scratch, the A
 
 With supported direct browser-tab access, the AI can inspect assessment results without requiring you to manually copy every question. Otherwise, you can supply screenshots, copied text, or exports.
 
-### 🎯 3. Adaptive Practice and Progress Tracking
+### 📈 3. Adaptive Practice and Progress Tracking
 
 Once weaknesses are identified, use AI to reinforce your understanding through targeted review and original practice scenarios.
 
@@ -104,7 +105,7 @@ You can interact naturally or use the activity-specific prompts in [**PROMPTS.md
 
 ## 📖 How to Use It
 
-### During Course Learning
+### 🔹 During Course Learning
 
 Treat your course as the comprehensive learning resource and AI as your tool for extracting the highest-value information. The system is designed to build on your existing knowledge rather than explain everything from scratch. You don't need complicated prompts for ordinary questions.
 
@@ -114,7 +115,7 @@ The AI should surface the most consequential concepts, decisive exam keywords, m
 
 Ask whatever follow-up questions you need. The system builds on your existing knowledge rather than explaining everything from scratch.
 
-### During Practice Testing
+### 🔹 During Practice Testing
 
 After completing a practice exam, ask your AI assistant to analyze the results and create a prioritized review plan.
 
@@ -122,7 +123,7 @@ Provide the assessment's score, domain breakdown, and question reviews. If direc
 
 **Record answers you're unsure about or guessed.** All unmarked answers are treated as confident. This provides additional context for diagnosing weaknesses, including those hidden behind correct answers.
 
-### During Guided Review
+### 🔹 During Guided Review
 
 Once the assessment has been analyzed, simply tell the AI to **begin reviewing**.
 
@@ -175,6 +176,10 @@ During practice tests, record answers you're **unsure** about or **guessed**. Al
 | [**PROJECT-INSTRUCTIONS.md**](https://github.com/cloudwithdavid/aws-saa-c03-ai-study-system/blob/main/PROJECT-INSTRUCTIONS.md) | Complete AI workspace instructions |
 | [**PROMPTS.md**](https://github.com/cloudwithdavid/aws-saa-c03-ai-study-system/blob/main/PROMPTS.md) | Ready-to-use prompts for learning, assessment analysis, guided review, drilling, and progress tracking |
 | **README.md** | Overview, setup, and usage guide |
+
+## 📝 My Exam Experience
+
+Read my [SAA-C03 Reddit post](https://www.reddit.com/r/AWSCertifications/s/O8xY6b0OpN) for my preparation experience, exam results, and community discussion.
 
 ## 🔗 Resources and References
 
